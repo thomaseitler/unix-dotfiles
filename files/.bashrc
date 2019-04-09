@@ -55,9 +55,8 @@ alias grep='grep --color=auto'
 # turn off CTRL+s
 stty stop undef
 
-# default terminal
-export TERMINAL=urxvt
-
+# fix del and backspace for st
+stty erase '^H'
 # load configs
 
 #PS1="$BWHT$FBG$HC[${debian_chroot:+($debian_chroot)}\u@\h]$RS $bold$FBLE\w$RS $FRED\$git_dirty$RS\$ "
