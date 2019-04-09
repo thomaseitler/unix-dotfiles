@@ -1,5 +1,5 @@
 ! font settings
-URxvt.font:             xft:hack:pixelsize=14
+URxvt.font:             xft:Ubuntu Mono:pixelsize=14
 URxvt.letterSpace:      -1
 
 URxvt.iso14755: false
@@ -9,3 +9,5 @@ URxvt*scrollBar: false
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
