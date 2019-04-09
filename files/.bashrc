@@ -72,3 +72,4 @@ done
 unset file
 
 [ -s "/home/tom/.scm_breeze/scm_breeze.sh" ] && source "/home/tom/.scm_breeze/scm_breeze.sh"
+[ -s "/usr/share/nvm/init-nvm.sh" ] && source "/usr/share/nvm/init-nvm.sh"
