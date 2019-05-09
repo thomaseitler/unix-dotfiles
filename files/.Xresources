@@ -1,3 +1,5 @@
 #include "./dotfiles/files/gruvbox-urxvt256.xresources"
+st.font: Monospace-10;
+Xft.dpi: 91.79
 
 

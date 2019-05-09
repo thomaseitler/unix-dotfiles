@@ -4,9 +4,17 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'posva/vim-vue'
+Plug 'mattn/emmet-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Initialize plugin system
 call plug#end()
+" Deople Config
+let g:deoplete#enable_at_startup = 1
+
+" Vim-Vue Config
+let g:vue_disable_pre_processors = 1
 
 " Gruvbox Config
 let g:gruvbox_contrast_dark='soft'
